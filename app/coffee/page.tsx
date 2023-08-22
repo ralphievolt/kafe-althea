@@ -4,7 +4,10 @@ import { CoffeeMenu } from "@/components/menu/coffee";
 export default function CoffeePage() {
   return (
     <div>
-      <h1 className={title()}>Coffee</h1>
+      <div className="ml-5">
+        <h1 className={title()}>Coffee</h1>
+      </div>
+
       <p>
         <CoffeeMenu />
       </p>
